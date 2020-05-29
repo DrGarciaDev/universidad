@@ -1,17 +1,10 @@
-// Eliminar de Local Storage
-// localStorage.clear();
-
+// getelementById
 let elemento;
 
-elemento = document;
-elemento = document.all;
-elemento = document.head;
-elemento = document.body;
-elemento = document.domain;
-elemento = document.URL;
-elemento = document.characterSet;
-elemento = document.forms;
-elemento = document.images;
-elemento = document.images[2].getAttribute('src');
-
+elemento = document.getElementById('encabezado');
+encabezado.style.background = '#333';
+encabezado.style.color = '#fff';
+encabezado.style.padding = '20px';
+encabezado.textContent = 'Los mejores cursos';
+encabezado.innerText = 'Los mejores cursos';
 console.log(elemento);
