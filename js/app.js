@@ -2,9 +2,14 @@
 
 // const encabezado = document.querySelector('#encabezado');
 
-const encabezado = document.querySelector('#principal a:nth-child(3)');
+const enlace = document.getElementsByClassName('enlace');
 
-console.log(encabezado);
+console.log(enlace);
 
+const links = document.getElementsByTagName('a');
 
-// query selector solo selecciona la primer aparicion del selector proporcionado
+console.log(links);
+
+const enlaces = document.querySelectorAll('#principal .enlace');
+
+console.log(enlaces);
