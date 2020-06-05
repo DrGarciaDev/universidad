@@ -1,15 +1,14 @@
-// query selector
+const enlace = document.createElement('a');
 
-// const encabezado = document.querySelector('#encabezado');
+// agregamos un enlace 
+enlace.className = "enlace";
+// añadir un id 
+enlace.id = 'nuevo-id';
+// atributo de href 
+enlace.setAttribute('href', '#');
+// añadir textos 
+enlace.textContent = 'Nuevo enlace';
 
-const enlace = document.getElementsByClassName('enlace');
+document.querySelector('#secundaria').appendChild(enlace);
 
 console.log(enlace);
-
-const links = document.getElementsByTagName('a');
-
-console.log(links);
-
-const enlaces = document.querySelectorAll('#principal .enlace');
-
-console.log(enlaces);
